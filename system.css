@@ -4,7 +4,7 @@
 }
 body, font, a, p, b, i, strong, em, li {
     background-color: #dcdad5;
-    color: #000;
+    color: #222222;
     font-family: "libsans";
     font-size: 14pt;
 }
@@ -15,9 +15,19 @@ table, tr, td, th {
     font-size: 14pt;
     text-align: center;
 }
-input, select, textarea {
+input[type=text], textarea {
     background-color: #fff;
     color: #000;
+    box-sizing: border-box;
+    box-shadow: inset -1px -1px #0a0a0a, inset 1px 1px #fff, inset -1.5px -1.5px #808080, inset 1.5px 1.5px #dfdfdf;
+    font-family: "libsans";
+    font-size: 14pt;
+}
+input[type=button], select {
+    background-color: #dfdfdf;
+    color: #000;
+    box-sizing: border-box;
+    box-shadow: inset -1px -1px #0a0a0a, inset 1px 1px #fff, inset -2px -2px #808080, inset 2px 2px #dfdfdf;
     font-family: "libsans";
     font-size: 14pt;
 }
@@ -37,7 +47,7 @@ input, select, textarea {
     overflow-y: scroll;
 }
 .actionButton {
-    background-color: #fff;
+    background-color: #c0c0c0;
     color: #000;
     font-size: 16pt;
     width: 29px;
