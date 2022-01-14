@@ -1,18 +1,18 @@
 @font-face {
     font-family: "libsans";
-    src: url("clacon.ttf");
+    src: url("libsans.ttf");
 }
 body, font, a, p, b, i, strong, em, li {
     background-color: #dcdad5;
     color: #222222;
     font-family: "libsans";
-    font-size: 16pt;
+    font-size: 14pt;
 }
 table, tr, td, th {
     background-color: #dcdad5;
     color: #000;
     font-family: "libsans";
-    font-size: 16pt;
+    font-size: 14pt;
     text-align: center;
 }
 input[type=text], textarea {
@@ -21,7 +21,7 @@ input[type=text], textarea {
     box-sizing: border-box;
     box-shadow: inset -1px -1px #0a0a0a, inset 1px 1px #fff, inset -1px -1px #808080, inset 1px 1px #dfdfdf;
     font-family: "libsans";
-    font-size: 16pt;
+    font-size: 14pt;
 }
 input[type=button], select {
     background-color: #dfdfdf;
@@ -29,7 +29,7 @@ input[type=button], select {
     box-sizing: border-box;
     box-shadow: inset -1px -1px #0a0a0a, inset 1px 1px #fff, inset -1px -1px #808080, inset 1px 1px #dfdfdf;
     font-family: "libsans";
-    font-size: 16pt;
+    font-size: 14pt;
 }
 .top {
     border: none;
@@ -49,7 +49,7 @@ input[type=button], select {
 .actionButton {
     background-color: #c0c0c0;
     color: #000;
-    font-size: 18pt;
+    font-size: 14pt;
     width: 29px;
     position: relative;
 }
